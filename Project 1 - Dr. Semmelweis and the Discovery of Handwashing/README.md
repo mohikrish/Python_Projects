@@ -1,4 +1,3 @@
-Python_Projects
 Dr. Semmelweis and the discovery of handwashing
 
 • Analyzed handwashing data from two hospitals to determine whether handwashing among doctors reduces rate of death in women during child birth 
