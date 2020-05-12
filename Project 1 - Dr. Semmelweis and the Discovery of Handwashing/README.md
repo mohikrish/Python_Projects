@@ -4,5 +4,4 @@ Dr. Semmelweis and the discovery of handwashing
 • Utilized Python to analyze data and visualized data using i.e. Matplotlib library
 • Performed bootstrap analysis of data to highlight that when doctors washed hands while delivering babies there was a 10% reduction in deaths of mothers
 
-
-Programming Aids used: Python/Pycharm/Jupyter Notebook
+Programming Aids used: Python(Matplotlib..)/Pycharm/Jupyter Notebook
