@@ -33,3 +33,8 @@ print(sum_stat_car)
 # Create a pairwise scatter plot to explore the data
 sns.pairplot(sum_stat_car, height=0.5)
 plt.show()
+
+# Compute the correlation coefficent for all column pairs
+corr_columns = car_acc.corr()
+print(corr_columns)
+
