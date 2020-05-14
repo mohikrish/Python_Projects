@@ -7,6 +7,8 @@ yearly = pd.read_csv('yearly_deaths_by_clinic.csv')
 # Print out yearly
 print(yearly)
 
+
+
 # Calculate proportion of deaths per no. births
 yearly["proportion_deaths"] = yearly["deaths"]/yearly["births"]
 
