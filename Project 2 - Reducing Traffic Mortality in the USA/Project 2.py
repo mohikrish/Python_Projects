@@ -14,3 +14,22 @@ print(car_acc_information)
 
 # Display the last five rows of the DataFrame
 car_acc.tail()
+
+print(car_acc)
+
+# import seaborn and make plots appear inline
+import seaborn as sns
+#matplotlib inline
+
+# import seaborn and make plots appear inline
+import seaborn as sns
+import matplotlib.pyplot as plt
+#matplotlib inline
+
+# Compute the summary statistics of all columns in the `car_acc` DataFrame
+sum_stat_car = car_acc.describe()
+print(sum_stat_car)
+
+# Create a pairwise scatter plot to explore the data
+sns.pairplot(sum_stat_car, height=0.5)
+plt.show()
