@@ -64,5 +64,6 @@ for i in range(3000):
     boot_mean_diff.append(boot_after.mean() - boot_before.mean())
 
 # Calculating a 95% confidence interval from boot_mean_diff
+# A 95% confidence interval is a range of values that you can be 95% certain contains the true mean of the population.
 confidence_interval = pd.Series(boot_mean_diff).quantile([0.025, 0.975])
 print(confidence_interval)
