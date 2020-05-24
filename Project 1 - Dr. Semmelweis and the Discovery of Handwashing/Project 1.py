@@ -58,6 +58,7 @@ print(mean_diff)
 
 # A bootstrap analysis of the reduction of deaths due to handwashing
 # Using .Sample function for random sampling and randomly pick more than one element from the list without repeating elements. 
+# Using .append() method to add a single item to the existing list. To modify the original list by adding the item to the end of the list.
 boot_mean_diff = []
 for i in range(3000):
     boot_before = before_proportion.sample(frac=1, replace=True)
