@@ -6,6 +6,6 @@ Dr. Semmelweis and the discovery of handwashing
 
 Programming Aids used: Python(Matplotlib..)/Pycharm/Jupyter Notebook
 
-Project OverView
+"Project OverView Visuals"
 
 https://github.com/mohikrish/Python_Projects/blob/master/Project%201%20-%20Dr.%20Semmelweis%20and%20the%20Discovery%20of%20Handwashing/Project%20OverView.pdf
